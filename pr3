@@ -1,0 +1,5 @@
+roscore
+rosrun r2d2_navigator fake_r2d2_controller
+rosnode list
+rosnode info fake_r2d2_controller
+rosrun turtlesim turtle_teleop_key
