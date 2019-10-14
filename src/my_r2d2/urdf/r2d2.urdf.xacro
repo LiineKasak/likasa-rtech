@@ -246,6 +246,15 @@
     <origin rpy="0 1.57 0" xyz="0 0 0"/>
   </joint>
 
+
+  <link name="eye">
+  </link>
+  <joint name="eye_joint" type="fixed">
+    <parent link="lense"/>
+    <child link="eye"/>
+    <origin rpy="0 0 1.57"/>
+  </joint>
+
   <link name="base_footprint">
     <xacro:default_inertial mass="1000"/>
   </link>
